@@ -26,9 +26,7 @@ class Car {
         self.Vtrunk = .empty
     }
 }
-class SportCar: Car { // наследуем HondaSport от Honda
-// мы ничего не пишем здесь
-// и наш новый класс имеет все те же свойства и методы, что и его родитель
+class SportCar: Car {
 }
 var sportCar1 = SportCar(color: .white, mp3: true, transmission: .auto, km: 0.0, doorState: .close, Vtrunk: . empty)
 
